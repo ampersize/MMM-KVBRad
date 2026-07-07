@@ -33,7 +33,7 @@ Module.register("MMM-KVBRad", {
     showType_icons: true,   // small icon distinguishing station vs. free-floating bike
 
     // --- Timing -------------------------------------------------------------
-    updateInterval: 3 * 60 * 1000, // 3 min (feed is throttled below 10 min for some mirrors of it; 3 min is safe on the API host)
+    updateInterval: 5 * 60 * 1000, // 5 min; the live feed updates roughly once per minute, so don't go much lower
     retryDelay: 30 * 1000,
     animationSpeed: 1000
   },

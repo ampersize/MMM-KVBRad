@@ -50,7 +50,7 @@ Add to `~/MagicMirror/config/config.js`:
     showType: "all",    // "all" | "stations" | "bikes"
     maxDistance: 1000,  // metres (0 = no limit)
     maxItems: 5,
-    updateInterval: 3 * 60 * 1000
+    updateInterval: 5 * 60 * 1000
   }
 }
 ```
@@ -72,7 +72,7 @@ Add to `~/MagicMirror/config/config.js`:
 | `bearingCorrection` | `0` | Degrees; rotate arrows to match how the mirror is mounted. |
 | `showBikeNumbers` | `false` | List individual bike numbers (useful for single bikes). |
 | `showType_icons` | `true` | Small icon: station (marker) vs. free-floating bike. |
-| `updateInterval` | `180000` | Refresh interval in ms. Keep at ≥ ~60 s to be gentle on the API. |
+| `updateInterval` | `300000` | Refresh interval in ms (5 min). The live feed updates roughly once per minute, so there's little point going much lower. |
 | `retryDelay` | `30000` | Retry delay after an error, in ms. |
 | `animationSpeed` | `1000` | DOM update fade duration in ms. |
 
