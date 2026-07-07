@@ -1,6 +1,6 @@
 {
   "name": "mmm-kvbrad",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "MagicMirror² module: nearest nextbike / KVB-Rad stations and free-floating bikes by lat/long (distance-based instead of a fixed station ID).",
   "main": "MMM-KVBRad.js",
   "keywords": [
