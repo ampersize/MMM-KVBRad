@@ -1,0 +1,27 @@
+{
+  "name": "mmm-kvbrad",
+  "version": "1.0.0",
+  "description": "MagicMirror² module: nearest nextbike / KVB-Rad stations and free-floating bikes by lat/long (distance-based instead of a fixed station ID).",
+  "main": "MMM-KVBRad.js",
+  "keywords": [
+    "MagicMirror",
+    "nextbike",
+    "kvb-rad",
+    "koeln",
+    "bikesharing"
+  ],
+  "author": "ampersize",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ampersize/MMM-KVBRad.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ampersize/MMM-KVBRad/issues"
+  },
+  "homepage": "https://github.com/ampersize/MMM-KVBRad#readme",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {}
+}

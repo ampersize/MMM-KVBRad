@@ -1,0 +1,45 @@
+/* MMM-KVBRad
+ * Follows MagicMirror conventions (transparent background, .bright/.dimmed).
+ */
+
+.kvbrad-table {
+  border-spacing: 0;
+  border-collapse: separate;
+}
+
+.kvbrad-table td {
+  padding: 2px 6px;
+  vertical-align: middle;
+}
+
+.kvbrad-icon {
+  text-align: center;
+  width: 1.2em;
+}
+
+.kvbrad-bikes {
+  text-align: right;
+  font-weight: bold;
+  padding-right: 8px;
+}
+
+.kvbrad-name {
+  text-align: left;
+  max-width: 14em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.kvbrad-dist {
+  text-align: right;
+}
+
+.kvbrad-bearing {
+  text-align: center;
+  width: 1.2em;
+}
+
+.kvbrad-numbers {
+  margin-left: 4px;
+}
